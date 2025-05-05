@@ -1,6 +1,6 @@
 # 📢 FURIA CS:GO Fan Chat
 
-![FURIA Logo]([https://upload.wikimedia.org/wikipedia/pt/thumb/d/dc/FURIA_Esports_logo.png/200px-FURIA_Esports_logo.png](https://upload.wikimedia.org/wikipedia/pt/f/f9/Furia_Esports_logo.png))
+![FURIA Logo](https://upload.wikimedia.org/wikipedia/pt/f/f9/Furia_Esports_logo.png)
 
 ## 🚀 Visão Geral
 
