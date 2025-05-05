@@ -1,45 +1,37 @@
-from pathlib import Path
-
-# Conteúdo do README.md formatado em Markdown
-readme_content = """
 # 📢 FURIA CS:GO Fan Chat
 
-![FURIA Logo](https://upload.wikimedia.org/wikipedia/pt/thumb/d/dc/FURIA_Esports_logo.png/200px-FURIA_Esports_logo.png)
+![FURIA Logo](https://upload.wikimedia.org/wikipedia/pt/f/f9/Furia_Esports_logo.png)
 
-## 🚀 Visão Geral
+## 💬 Funcionalidades
 
-O **FURIA CS:GO Fan Chat** é uma plataforma completa para torcedores acompanharem o time de CS:GO da FURIA, com:
+1. **Chat em Tempo Real**  
+   O aplicativo oferece um **chat interativo** onde os fãs podem se comunicar em tempo real durante os jogos da FURIA. A interação entre torcedores é uma parte central da plataforma, permitindo discussões e compartilhamento de emoções durante as partidas.
 
-- 💬 Chat em tempo real entre fãs  
-- 📊 Estatísticas atualizadas dos jogadores  
-- 🔔 Notificações de jogos ao vivo  
-- 🤖 Integração com Telegram  
+2. **Estatísticas dos Jogadores**  
+   Acompanhe o **desempenho de cada jogador** da FURIA com **estatísticas atualizadas em tempo real**, incluindo kills, mortes e outros dados importantes durante os jogos.
+
+3. **Notificações de Jogos Ao Vivo**  
+   Nunca perca um jogo! O app envia **notificações automáticas** sempre que uma partida ao vivo da FURIA começa, mantendo os fãs sempre informados.
+
+4. **Integração com Telegram**  
+   Fique ainda mais conectado com o **bot do Telegram** integrado, que envia notificações sobre os jogos ao vivo, desempenho dos jogadores e outras atualizações em tempo real diretamente no seu celular.
 
 ---
 
 ## 💻 Tecnologias Utilizadas
 
-| Componente     | Tecnologias |
-|----------------|-------------|
-| **Frontend**   | HTML5, CSS3, JavaScript, Socket.IO Client |
-| **Backend**    | Python (Flask), Flask-SocketIO, python-telegram-bot |
-| **Banco de Dados** | Firebase Realtime Database |
-| **Infraestrutura** | Docker, Nginx (para produção) |
+- **Frontend**: HTML5, CSS3, JavaScript, Socket.IO Client
+- **Backend**: Python (Flask), Flask-SocketIO, python-telegram-bot
+- **Banco de Dados**: Firebase Realtime Database
+- **Infraestrutura**: Docker, Nginx (para produção)
 
 ---
 
-## ⚙️ Instalação Local
+## 🌐 Acessando a Aplicação
 
-### ✅ Pré-requisitos
+O app está disponível em modo de desenvolvimento local para você testar e acompanhar. Após a instalação local, você poderá acessá-lo da seguinte forma:
 
-- Python 3.9+
-- Node.js (para builds opcionais)
-- Conta no Firebase
+- **Frontend** (em desenvolvimento): [http://localhost:8000](http://localhost:8000)
+- **API/WebSocket**: `ws://localhost:5000`
 
-### 🔧 Passo a Passo
-
-1. **Clone o repositório:**
-
-```bash
-git clone https://github.com/seu-usuario/furia-fan-chat.git
-cd furia-fan-chat
+---
